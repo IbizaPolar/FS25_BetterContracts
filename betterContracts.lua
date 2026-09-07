@@ -76,6 +76,7 @@
 -- 							reduce maxNumInstances for non-field missions
 --  v1.3.1.0 	27.07.2026	fix contract exclusion #208. fix log msg getFilltypePrice #207
 -- 							apply canceled mission penalty in hard mode #198
+--  v1.3.1.1	07.09.2026  ability to translate "F." (field) in contract list
 --=======================================================================================================
 SC = {
 	FERTILIZER = 1, -- prices index
@@ -704,9 +705,9 @@ function getLocation(self, superf)
 		--	txt = string.format(g_i18n:getText("bc_chaff"), bc.ft[m.orgFillType].title)
 		elseif self.type.name == "sowMission" then
 			local ft = g_fruitTypeManager.fruitTypeIndexToFillType[self.fruitTypeIndex]
-			txt = string.format(g_i18n:getText("bc_sow"), ft.title)
+			txt = string.format(g_i18n:getText("bc_FieldShort"), getText("bc_sow"), ft.title)
 		end
-		return string.format("F. %s - %s",fieldId, txt)
+		return string.format("%s - %s",fieldId, txt)
 	else
 		
 	end
