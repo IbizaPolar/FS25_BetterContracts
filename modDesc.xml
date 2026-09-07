@@ -8,6 +8,8 @@
 	<description>
 		<en>
 			<![CDATA[
+Changelog v1.3.1.1
+- add translation of "F." in contract list (all languages)
 
 Changelog v1.3.1.0
 - apply canceled mission penalty in hard mode #198
