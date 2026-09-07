@@ -11,6 +11,10 @@
 =======================================================================================================-->
 <l10n>
 	<texts>
+		<!-- updates v1.3.0.9 
+		add translation of "Field" in short. E.g. "Field" in english should be "F. " etc. (please add space after .)
+		-->
+		<text name="bc_FieldShort" text="F. " />
 		<!-- updates v1.3.0.8 -->
 		<text name="bc_vecSelect" text="Maschinen-Auswahl" />
 		<text name="bc_vecSelect_tooltip" text="Maschinen-Auswahldialog zeigen bei Annahme eines Vertrags mit Leihgeräten." />
