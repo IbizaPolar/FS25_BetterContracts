@@ -11,6 +11,10 @@
 =======================================================================================================-->
 <l10n>
 	<texts>
+		<!-- updates v1.3.0.9 
+		add translation of "Field" in short. E.g. "Field" in english should be "F. " etc. (please add space after .)
+		-->
+		<text name="bc_FieldShort" text="J. " />
 		<!-- updates v1.3.0.8 -->
 		<text name="bc_vecSelect" text="Valg af køretøj" />
 		<text name="bc_vecSelect_tooltip" text="Viser dialogboksen til valg af køretøj, når du låner udstyr til en kontrakt." />
